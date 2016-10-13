@@ -2,9 +2,9 @@
 
 一个基于 RxJava 的 EventBus 库。
 
-## 基本用法
+## 1 基本用法
 
-### 订阅
+### 1.1 订阅
 
 - 自定义订阅方式
 
@@ -52,13 +52,13 @@ Subscription subscription = RxBus.INSTANCE.doSubscribe(Integer.class, new Action
 });
 ```
 
-### 发送事件
+### 1.2 发送事件
 
 ```
 RxBus.INSTANCE.post(mCount);
 ```
 
-### 反订阅
+### 1.3 反订阅
 
 ```
 @Override
@@ -68,6 +68,6 @@ protected void onDestroy() {
 }
 ```
 
-## 参考
+## 2 参考
 
 - [Android 用RxJava模拟一个EventBus ———RxBus](http://www.jianshu.com/p/3a3462535b4d)
