@@ -71,3 +71,4 @@ protected void onDestroy() {
 ## 2 参考
 
 - [Android 用RxJava模拟一个EventBus ———RxBus](http://www.jianshu.com/p/3a3462535b4d)
+- [Implementing an Event Bus With RxJava - RxBus](http://blog.kaush.co/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/)
